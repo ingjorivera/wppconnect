@@ -1,15 +1,15 @@
 export default {
-  secretKey: 'THISISMYSECURETOKEN',
+  secretKey: '0sMxf7279iTT5pWV3VbT0OZK',
   host: 'http://localhost',
   port: '21465',
-  deviceName: 'WppConnect',
+  deviceName: 'RiveraStudioBot',
   poweredBy: 'WPPConnect-Server',
   startAllSession: true,
   tokenStoreType: 'file',
   maxListeners: 15,
   customUserDataDir: './userDataDir/',
   webhook: {
-    url: null,
+    url: 'https://wppconnect.backendriverastudio.site/webhook',
     autoDownload: true,
     uploadS3: false,
     readMessage: true,
